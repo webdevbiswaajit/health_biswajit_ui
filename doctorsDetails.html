@@ -1,0 +1,751 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ===Google-font=== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <!-- ===Google-font=== -->
+    <link href="./dist/output.css" rel="stylesheet">
+    <!-- ===Coustom Css=== -->
+    <link rel="stylesheet" href="./src/coustom.css">
+    <!-- ===Coustom Css=== -->
+</head>
+
+<body>
+
+    <header>
+        <div class="bg-lightBlue">
+            <div class="container mx-auto">
+                <div class="px-2 flex justify-between">
+                    <div class="flex items-center">
+                        <div class="">
+                            <p class=" text-lg   text-white mt-1 md:mt-2 mr-2"><iconify-icon
+                                    icon="ri:mail-fill"></iconify-icon>
+                            </p>
+                        </div>
+                        <div class="">
+                            <p class="text-white text-xs md:text-base font-normal font-lato">contact@somerianhealth.com
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex items-center">
+                        <div class="">
+                            <p class=" text-lg  text-white mt-1 mr-2"><iconify-icon
+                                    icon="ic:baseline-local-phone"></iconify-icon>
+                            </p>
+                        </div>
+                        <div class="">
+                            <p class="text-white text-xs md:text-base font-normal font-lato">+971 24 090 555
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ================Top bar============= -->
+    <!-- ==========================Nav-start================== -->
+    <nav>
+        <div class="bg-about_hero   heroback bg-cover bg-center py-4 lg:pb-36 hero  lg:px-0">
+            <div class="nav_black" id="myHeader">
+                <div class="container mx-auto">
+                    <div class="grid grid-cols-12 items-center menu_area ">
+                        <div class="col-span-12 lg:col-span-4">
+                            <div class=" flex justify-between">
+                                <div class="">
+                                    <a href="https://somerianhealth.com/" target="_blank"><img
+                                            class=" w-28 lg:w-56 lg:h-20" src="./img/white_logo.png" alt=""></a>
+                                </div>
+                                <div class=" lg:hidden dropdown_toggle">
+                                    <button class=" text-3xl text-white "><iconify-icon
+                                            icon="material-symbols:menu-rounded"></iconify-icon></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-span-12 lg:col-span-8  ">
+                            <ul class=" lg:flex lg:justify-between hidden dropdown mobile_menu">
+                                <li><a class=" lg:text-lg  text-white  font-lato font-medium hover:text-highRed py-2 lg:py-0 "
+                                        href="index.html">Home</a>
+                                </li>
+                                <li><a class=" lg:text-lg  text-white   font-lato font-medium hover:text-highRed py-2 lg:py-0 "
+                                        href="aboutUs.html">About
+                                        Us</a>
+                                </li>
+                                <li><a class=" lg:text-lg  text-white   font-lato font-medium hover:text-highRed py-2 lg:py-0"
+                                        href="services.html">Services</a>
+                                </li>
+                                <li><a class=" lg:text-lg  text-white   font-lato font-medium hover:text-highRed py-2 lg:py-0"
+                                        href="doctor.html">Doctors</a>
+                                </li>
+                                <li><a class=" lg:text-lg  text-white   font-lato font-medium hover:text-highRed py-2 lg:py-0 "
+                                        href="careers.html">Careers</a>
+                                </li>
+                                <li><a class=" lg:text-lg  text-white   font-lato font-medium hover:text-highRed py-2 lg:py-0"
+                                        href="contact.html">Contact
+                                        Us</a></li>
+                                <div class="search">
+                                    <div class=" flex justify-end lg:justify-start">
+                                        <div
+                                            class=" bg-highRed w-10 h-10 flex justify-center items-center rounded-full py-2 lg:py-0">
+                                            <button class="px-6  py-3 text-white text-2xl mt-1 serch_btn"><iconify-icon
+                                                    icon="material-symbols:search-rounded"></iconify-icon>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class=" search_input search_field hidden">
+                                        <form action="">
+                                            <div class=" flex items-center">
+                                                <div class="">
+                                                    <input
+                                                        class=" py-2 px-2  bg-highBlue text-white border border-white rounded focus:outline-none  serach_box"
+                                                        type="text" placeholder="Search Hear">
+                                                </div>
+                                                <div class=" ml-2">
+                                                    <button
+                                                        class=" bg-highRed py-2 px-3 text-white font-lato  border border-highRed rounded">Serach</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mx-auto">
+
+                <div class="lg:px-3">
+                    <h2
+                        class="text-2xl  lg:text-4xl text-center lg:text-left text-white font-lato font-semibold lg:mt-20">
+                        Doctors</h2>
+                    <div class=" flex items-center justify-center lg:justify-start mt-2 lg:mt-5">
+                        <a class="text-base lg:text-lg text-white font-lato " href="#">Home</a>
+                        <p class="text-base lg:text-lg  text-white font-lato mx-2">></p>
+                        <a class="text-base lg:text-lg  text-highRed font-lato " href="#">Doctors</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </nav>
+    <!-- ==========================Nav-End================== -->
+
+
+    <!-- ===============Doctor-details-start =========== -->
+
+    <section>
+        <div class="container mx-auto lg:py-20 back">
+            <div class="px-3 py-6">
+                <div class=" flex items-center">
+                    <h2 class=" text-lg font-lato font-medium  text-highBlue">Doctor of Medicine </h2>
+                    <h2 class="text-3xl mt-2 font-lato font-medium  text-highBlue"><iconify-icon
+                            icon="uil:angle-right-b"></iconify-icon></h2>
+                </div>
+                <div class="lg:grid lg:grid-cols-12 lg:mt-7 lg:gap-10">
+                    <div class=" col-span-8">
+                        <div class="lg:grid lg:grid-cols-12">
+                            <div class="col-span-4">
+                                <div class="">
+                                    <img src="./img/morcale_brain.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-span-8 p-6">
+                                <h2 class="  text-2xl text-highBlue  font-lato font-semibold">Dr. Morkel Brain</h2>
+                                <p class=" text-base text-lightBlue  font-lato font-normal">MBBS, MCPS (Medicine), FCPS
+                                    (Medicine)</p>
+                                <div class=" flex">
+                                    <p class=" text-lg text-highRed"><iconify-icon
+                                            icon="material-symbols:star-rounded"></iconify-icon>
+                                    </p>
+                                    <p class=" text-lg text-highRed"><iconify-icon
+                                            icon="material-symbols:star-rounded"></iconify-icon>
+                                    </p>
+                                    <p class=" text-lg text-highRed"><iconify-icon
+                                            icon="material-symbols:star-rounded"></iconify-icon>
+                                    </p>
+                                    <p class=" text-lg text-highRed"><iconify-icon
+                                            icon="material-symbols:star-rounded"></iconify-icon>
+                                    </p>
+                                    <p class=" text-lg text-highRed opacity-40"><iconify-icon
+                                            icon="material-symbols:star-rounded"></iconify-icon>
+                                    </p>
+                                    <p class="text-base text-lightBlue  font-lato font-normal ml-3">(156)</p>
+                                </div>
+                                <div class="md:grid md:grid-col-2 lg:grid lg:grid-cols-2">
+                                    <div class="">
+                                        <div class=" flex items-center">
+                                            <p class=" text-xl text-highRed mr-2.5 mt-1"><iconify-icon
+                                                    icon="material-symbols:call"></iconify-icon></p>
+                                            <p class="text-base text-lightBlue  font-lato font-normal">(741)376-5689</p>
+                                        </div>
+                                        <div class=" flex items-center">
+                                            <p class=" text-xl text-highRed mr-2.5 mt-1"><iconify-icon
+                                                    icon="material-symbols:send"></iconify-icon></p>
+                                            <p class="text-base text-lightBlue  font-lato font-normal">example@gmail.com
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="">
+                                        <div class=" flex items-center">
+                                            <p class=" text-xl text-highRed mr-2.5 mt-1"><iconify-icon
+                                                    icon="pajamas:location-dot"></iconify-icon></p>
+                                            <p class="text-base text-lightBlue  font-lato font-normal">American Crescent
+                                                Hospital</p>
+                                        </div>
+                                        <div class=" flex items-center">
+                                            <p class=" text-2xl font-bold text-highRed mr-1 mt-1"><iconify-icon
+                                                    icon="la:certificate"></iconify-icon></p>
+                                            <p class="text-base text-lightBlue  font-lato font-normal">13 Years
+                                                Experience
+                                            </p>
+                                        </div>
+                                        <div class=" flex items-center">
+                                            <p class=" text-xl text-highRed mr-2.5 mt-1"><iconify-icon
+                                                    icon="uiw:date"></iconify-icon>
+                                            </p>
+                                            <p class="text-base text-lightBlue  font-lato font-normal">Sun, Tue, Wed,
+                                                Thu,
+                                                Fri</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" mt-11">
+                            <h2 class="text-2xl text-highBlue  font-lato font-semibold border-l-2 border-highRed pl-3">
+                                About Doctor</h2>
+                            <p class="text-base text-lightBlue  font-lato font-normal text-justify mt-5">Lorem Ipsum is
+                                simply
+                                dummy text of
+                                the printing and typesetting industry. Lorem Ipsum has
+                                been the industry's standar
+                                dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                                scrambled
+                                it to make a type speci
+                                book. It has survived not only five centuries, but also the leap into electronic
+                                typesetting, remaining essentially
+                                unchange.
+                                It was popularised in the 1960s with the release of Letraset sheets containing Lorem
+                                Ipsum
+                                passages, and more recently
+                                desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        </div>
+                        <div class=" mt-14">
+                            <h2 class="text-2xl text-highBlue  font-lato font-semibold border-l-2 border-highRed pl-3">
+                                Subspecialties</h2>
+                            <p class="text-base text-lightBlue  font-lato font-normal text-justify mt-5">Lorem Ipsum is
+                                simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                                industry's standar
+                                dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                                scrambled
+                                it to make a type speci
+                                book. It has survived not only five centuries.
+                            </p>
+                        </div>
+                        <div class=" mt-9">
+                            <div class="lg:grid lg:grid-cols-12">
+                                <div class=" col-span-8">
+                                    <div class=" flex  mb-4">
+                                        <span class=" text-highRed  text-2xl mr-4"><iconify-icon
+                                                icon="material-symbols:check"></iconify-icon>
+                                        </span>
+                                        <h2 class=" text-lg text-highBlue  font-medium font-lato"> Obstetrics &
+                                            Gynecoligy</h2>
+                                    </div>
+                                    <div class=" flex mb-4">
+                                        <span class=" text-highRed  text-2xl mr-4"><iconify-icon
+                                                icon="material-symbols:check"></iconify-icon>
+                                        </span>
+                                        <h2 class=" text-lg text-highBlue  font-medium font-lato"> Heart Failure &
+                                            Transplantation</h2>
+                                    </div>
+                                    <div class=" flex mb-4">
+                                        <span class=" text-highRed  text-2xl mr-4"><iconify-icon
+                                                icon="material-symbols:check"></iconify-icon>
+                                        </span>
+                                        <h2 class=" text-lg text-highBlue  font-medium font-lato"> Obstetrics &
+                                            Gynecoligy
+                                        </h2>
+                                    </div>
+                                </div>
+                                <div class=" col-span-4">
+                                    <div class=" flex  mb-4">
+                                        <span class=" text-highRed  text-2xl mr-4"><iconify-icon
+                                                icon="material-symbols:check"></iconify-icon>
+                                        </span>
+                                        <h2 class=" text-lg text-highBlue  font-medium font-lato"> Obstetrics &
+                                            Gynecoligy</h2>
+                                    </div>
+                                    <div class=" flex mb-4">
+                                        <span class=" text-highRed  text-2xl mr-4"><iconify-icon
+                                                icon="material-symbols:check"></iconify-icon>
+                                        </span>Adult Congenitat Heart Disease</h2>
+                                    </div>
+                                    <div class=" flex mb-4">
+                                        <span class=" text-highRed  text-2xl mr-4"><iconify-icon
+                                                icon="material-symbols:check"></iconify-icon>
+                                        </span>
+                                        <h2 class=" text-lg text-highBlue  font-medium font-lato"> Obstetrics &
+                                            Gynecoligy
+                                        </h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class=" mt-20">
+                            <h2 class="text-2xl text-highBlue  font-lato font-semibold border-l-2 border-highRed pl-3">
+                                American Crescent Hospital Location</h2>
+                            <div class=" mt-8 border  rounded-lg">
+                                <div class="map_wapper">
+                                    <iframe class="google_map"
+                                        src="https://maps.google.com/maps?q=Zayed%20The%20First%20St%20-%20Al%20Hisn%20-%20Abu%20Dhabi%20-%20United%20Arab%20Emirates&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                                </div>
+
+                                <div class=" py-9 px-7">
+                                    <h2 class="text-lg text-highBlue  font-medium font-lato">Hospital Address</h2>
+                                    <div class="lg:grid lg:grid-cols-3 lg:gap-6 mt-7">
+                                        <div class=" flex">
+                                            <p class=" text-xl text-highRed mr-2.5 mt-1"><iconify-icon
+                                                    icon="pajamas:location-dot"></iconify-icon></p>
+                                            <p class=" text-base font-lato text-lightAsh font-normal mr-5 mt-2">Zayed
+                                                The
+                                                First
+                                                St -
+                                                Al Hisn -
+                                                Abu Dhabi - United Arab Emirates</p>
+
+                                        </div>
+                                        <div class=" flex">
+                                            <p class=" text-xl text-highRed mr-2.5 mt-1"><iconify-icon
+                                                    icon="material-symbols:call"></iconify-icon></p>
+                                            <div class=" mt-2">
+                                                <p class="text-base font-lato text-lightAsh font-normal ">+971 2 632
+                                                    5000</p>
+                                                <p class="text-base font-lato text-lightAsh font-normal ">+971 2 632
+                                                    5000</p>
+                                            </div>
+
+
+                                        </div>
+                                        <div class=" flex">
+                                            <p class=" text-xl text-highRed mr-2.5 mt-1"><iconify-icon
+                                                    icon="mdi:earth"></iconify-icon>
+                                            </p>
+                                            <p class="text-base font-lato text-lightAsh font-normal mt-2">Zayed The
+                                                First St
+                                                - Al
+                                                Hisn -
+                                                Abu Dhabi - United Arab Emirates</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" mt-14">
+                            <h2 class="text-2xl text-highBlue  font-lato font-semibold border-l-2 border-highRed pl-3">
+                                Patient Experience</h2>
+
+                        </div>
+                        <div class=" mt-10">
+                            <div class=" lg:flex lg:justify-between">
+                                <div class="">
+                                    <h2 class=" text-2xl font-medium font-lato text-highBlue">10 Comments</h2>
+                                </div>
+                                <div class=" flex">
+                                    <h2 class=" text-lg  text-lightAsh font-lato">Sort by:</h2>
+                                    <div class="select_box">
+                                        <select
+                                            class=" text-base   text-highBlue font-lato appearance-none ml-2.5 mt-1 focus:outline-none "
+                                            name="" id="">
+                                            <option value="">Most liked</option>
+                                        </select>
+                                        <div class="">
+                                            <p class=" down-arr">
+                                                <iconify-icon class=" text-highBlue text-4xl"
+                                                    icon="ic:outline-keyboard-arrow-down"></iconify-icon>
+                                            </p>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class=" mt-11">
+                            <div class=" flex justify-start mt-4">
+                                <div class=" border border-ash_dark rounded-lg">
+                                    <div class="lg:grid lg:grid-cols-12 p-5">
+                                        <div class=" col-span-1">
+                                            <div class=" w-14 h-14  rounded-full  bg-center bg-cover mr-4"
+                                                style="background-image: url('./img/devid.jpg')">
+                                            </div>
+                                        </div>
+                                        <div class=" col-span-11">
+                                            <div class="flex  justify-between w-full">
+                                                <p class=" text-base font-normal font-lato text-highBlue">Devid Brawon
+                                                </p>
+                                                <p class="text-base font-normal font-lato  text-lightAsh">5 hours ago
+                                                </p>
+                                            </div>
+                                            <div class="">
+                                                <p
+                                                    class="text-base text-ash_dark  font-lato font-normal text-justify mt-5">
+                                                    There are
+                                                    many variations of passages of Lorem Ipsum available, but the
+                                                    majority
+                                                    have
+                                                    suffered alteration in
+                                                    some form, by injected humour, or randomised words which don't look
+                                                    even
+                                                    slightly
+                                                </p>
+                                            </div>
+                                            <div class=" mt-6">
+                                                <button
+                                                    class="text-base text-white bg-highRed font-lato  px-3 py-1.5 rounded-md">Replay</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" flex justify-end">
+                                <div class=" bg-ash border border-ash_dark rounded-lg w-11/12">
+                                    <div class="lg:grid lg:grid-cols-12 p-5">
+                                        <div class=" col-span-1">
+                                            <div class=" w-14 h-14  rounded-full  bg-center bg-cover mr-4"
+                                                style="background-image: url('./img/devid.jpg')">
+                                            </div>
+                                        </div>
+                                        <div class=" col-span-11">
+                                            <div class="flex  justify-between w-full">
+                                                <p class=" text-base font-normal font-lato text-highBlue">Devid Brawon
+                                                </p>
+                                                <p class="text-base font-normal font-lato  text-lightAsh">5 hours ago
+                                                </p>
+                                            </div>
+                                            <div class="">
+                                                <p
+                                                    class="text-base text-ash_dark  font-lato font-normal text-justify mt-5">
+                                                    There are
+                                                    many variations of passages of Lorem Ipsum available, but the
+                                                    majority
+                                                    have
+                                                    suffered alteration in
+                                                    some form, by injected humour, or randomised words which don't look
+                                                    even
+                                                    slightly
+                                                </p>
+                                            </div>
+                                            <div class=" mt-6">
+                                                <button
+                                                    class="text-base text-white bg-lightAsh bg-opacity-20 font-lato  px-3 py-1.5 rounded-md">Replay</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" flex justify-start my-4">
+                                <div class=" border border-ash_dark rounded-lg">
+                                    <div class="lg:grid lg:grid-cols-12 p-5">
+                                        <div class=" col-span-1">
+                                            <div class=" w-14 h-14  rounded-full  bg-center bg-cover mr-4"
+                                                style="background-image: url('./img/asdop.jpg')">
+                                            </div>
+                                        </div>
+                                        <div class=" col-span-11">
+                                            <div class="flex  justify-between w-full">
+                                                <p class=" text-base font-normal font-lato text-highBlue">Adof Hoitller
+                                                </p>
+                                                <p class="text-base font-normal font-lato  text-lightAsh">5 hours ago
+                                                </p>
+                                            </div>
+                                            <div class="">
+                                                <p
+                                                    class="text-base text-ash_dark  font-lato font-normal text-justify mt-5">
+                                                    There are
+                                                    many variations of passages of Lorem Ipsum available, but the
+                                                    majority
+                                                    have
+                                                    suffered alteration in
+                                                    some form, by injected humour, or randomised words which don't look
+                                                    even
+                                                    slightly
+                                                </p>
+                                            </div>
+                                            <div class=" mt-6">
+                                                <button
+                                                    class="text-base text-white bg-highRed font-lato  px-3 py-1.5 rounded-md">Replay</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" flex justify-start">
+                                <div class=" border border-ash_dark rounded-lg">
+                                    <div class="lg:grid lg:grid-cols-12 p-5">
+                                        <div class=" col-span-1">
+                                            <div class=" w-14 h-14  rounded-full  bg-center bg-cover mr-4"
+                                                style="background-image: url('./img/mac.jpg')">
+                                            </div>
+                                        </div>
+                                        <div class=" col-span-11">
+                                            <div class="flex  justify-between w-full">
+                                                <p class=" text-base font-normal font-lato text-highBlue">Mac Allister
+                                                </p>
+                                                <p class="text-base font-normal font-lato  text-lightAsh">5 hours ago
+                                                </p>
+                                            </div>
+                                            <div class="">
+                                                <p
+                                                    class="text-base text-ash_dark  font-lato font-normal text-justify mt-5">
+                                                    There are
+                                                    many variations of passages of Lorem Ipsum available, but the
+                                                    majority
+                                                    have
+                                                    suffered alteration in
+                                                    some form, by injected humour, or randomised words which don't look
+                                                    even
+                                                    slightly
+                                                </p>
+                                            </div>
+                                            <div class=" mt-6">
+                                                <button
+                                                    class="text-base text-white bg-highRed font-lato  px-3 py-1.5 rounded-md">Replay</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class=" mt-8 mb-4">
+                                <div class="border  border-lightAsh inline-block rounded-lg ">
+                                    <div class=" flex items-center  px-5">
+                                        <button class=" text-base  text-highBlue font-lato font-normal  py-2.5">
+                                            See More
+                                        </button>
+                                        <p class=" text-lg text-highBlue mt-2 ml-2"><iconify-icon
+                                                icon="material-symbols:arrow-right-alt"></iconify-icon></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-span-4">
+                        <div class=" border rounded-xl ">
+                            <div class="  bg-highRed  bg-opacity-50 rounded-tr-xl rounded-tl-xl py-6 ">
+                                <h2 class=" text-2xl font-lato font-semibold text-highBlue text-center">Doctor Booking
+                                </h2>
+                            </div>
+                            <div class="py-9 px-10 ">
+                                <div class="">
+                                    <form action="">
+                                        <div class=" mb-6">
+                                            <p class=" text-base text-lightBlue font-lato mb-3">Name</p>
+                                            <input
+                                                class=" border border-ash w-full py-3 px-4 focus:outline-none  text-highBlue font-lato font-medium rounded-md"
+                                                type="text" placeholder="Enter Your Name">
+                                        </div>
+                                        <div class=" mb-6">
+                                            <p class=" text-base text-lightBlue font-lato mb-3">Phone Number</p>
+                                            <input
+                                                class=" border border-ash w-full py-3 px-4 focus:outline-none  text-highBlue font-lato font-medium rounded-md appearance-none"
+                                                type="tel" placeholder="Enter Your Phone Number">
+                                        </div>
+                                        <div class=" mb-6">
+                                            <p class=" text-base text-lightBlue font-lato mb-3">Email</p>
+                                            <input
+                                                class=" border border-ash w-full py-3 px-4 focus:outline-none  text-highBlue font-lato font-medium rounded-md appearance-none"
+                                                type="email" placeholder="Enter Your email Address">
+                                        </div>
+                                        <div class=" mb-6">
+                                            <p class=" text-base text-lightBlue font-lato mb-3">Date</p>
+                                            <input
+                                                class=" border border-ash w-full py-3 px-4 focus:outline-none  text-highBlue font-lato font-medium rounded-md appearance-none"
+                                                type="date" placeholder="date">
+                                        </div>
+                                        <div class=" mb-6">
+                                            <p class=" text-base text-lightBlue font-lato mb-3">Time</p>
+                                            <input
+                                                class=" border border-ash w-full py-3 px-4 focus:outline-none  text-highBlue font-lato font-medium rounded-md appearance-none"
+                                                type="Time" placeholder="Time">
+                                        </div>
+                                    </form>
+                                </div>
+
+
+                                <div class="">
+                                    <button
+                                        class=" bg-highRed w-full   text-lg font-bold text-white font-lato  py-2 rounded-xl"
+                                        type="submit">Book Appointment</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===============Doctor-details-End =========== -->
+
+    <!-- ===============Footer-start========================= -->
+    <Footer>
+        <div class="bg-footer_back px-3 py-6  lg:pt-28 lg:pb-12  footer_over ">
+            <div class="container mx-auto">
+                <div class="md:grid md:grid-cols-2 md:gap-7  lg:grid lg:grid-cols-4 lg:gap-10">
+                    <div class="">
+                        <div class="">
+                            <div class=" flex justify-center md:justify-start lg:justify-start">
+                                <a href="https://somerianhealth.com/" target="_blank">
+                                    <img class=" w-60 lg:w-56 " src="./img/white_logo.png" alt="">
+                                </a>
+                            </div>
+                            <p class=" text-white font-lato text-base text-center md:text-justify lg:text-left mt-3">
+                                Unit A202, 2nd Floor, Block A, Tamouh Business Hub, Reem Island Abu Dhabi, UAE</p>
+
+                        </div>
+
+                        <div class="mt-9">
+                            <div class="flex items-center justify-center md:justify-start">
+                                <p class=" text-2xl text-highRed mt-1 mr-2.5"><iconify-icon
+                                        icon="material-symbols:location-on-rounded"></iconify-icon></p>
+                                <p class="text-white font-lato text-base">Abu Dhabi, UAE</p>
+                            </div>
+                            <div class="flex items-center justify-center md:justify-start mt-2">
+                                <p class=" text-2xl text-highRed mt-1 mr-2.5"><iconify-icon
+                                        icon="material-symbols:mail"></iconify-icon></p>
+                                <p class="text-white font-lato text-base">contact@somerianhealth.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="">
+                        <h2
+                            class="font-semibold font-lato text-white text-center md:text-right lg:text-left text-xl lg:text-2xl mt-3  ">
+                            About Us
+                        </h2>
+
+                        <ul class="flex flex-col items-center md:items-end lg:items-start mt-3  ">
+                            <li><a class=" text-base  font-lato text-white  hover:text-highRed" href="#">Home</a>
+                            </li>
+                            <li class="mt-1"><a class=" text-base  font-lato text-white  hover:text-highRed"
+                                    href="#">Specialities</a>
+                            </li>
+                            <li class="mt-1"><a class=" text-base  font-lato text-white  hover:text-highRed"
+                                    href="#">Locations</a>
+                            </li>
+                            <li class="mt-1"><a class=" text-base  font-lato text-white  hover:text-highRed"
+                                    href="#">Insurance
+                                    Partner</a>
+                            </li>
+                            <li class="mt-1"><a class=" text-base  font-lato text-white   hover:text-highRed"
+                                    href="#">Career</a>
+                            </li>
+                            <li class="mt-1"><a class=" text-base  font-lato text-white  hover:text-highRed"
+                                    href="#">Contact
+                                    Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mt-6 lg:mt-0">
+                        <h2
+                            class="font-semibold font-lato text-white text-center md:text-left text-xl lg:text-2xl mt-3">
+                            Quick Links
+                        </h2>
+
+                        <ul class="flex flex-col items-center md:items-start mt-3 ">
+                            <li><a class=" text-base  font-lato text-white  hover:text-highRed" href="#">Our Pricing
+                                    Plan</a>
+                            </li>
+                            <li class="mt-1"><a class=" text-base  font-lato text-white  hover:text-highRed"
+                                    href="#">Our
+                                    Main Services</a>
+                            </li>
+                            <li class="mt-1"><a class=" text-base  font-lato text-white  hover:text-highRed"
+                                    href="#">Doctors</a>
+                            </li>
+                            <li class="mt-1"><a class=" text-base  font-lato text-white  hover:text-highRed"
+                                    href="#">Hospitals</a>
+                            </li>
+                            <li class="mt-1"><a class=" text-base  font-lato text-white   hover:text-highRed"
+                                    href="#">Clinicks</a>
+                            </li>
+                            <li class="mt-1"><a class=" text-base  font-lato text-white  hover:text-highRed"
+                                    href="#">Diagnostic</a>
+                            </li>
+                            <li class="mt-1"><a class=" text-base  font-lato text-white  hover:text-highRed"
+                                    href="#">Ambulance</a>
+                            </li>
+                            <li class="mt-1"><a class=" text-base  font-lato text-white  hover:text-highRed"
+                                    href="#">Doctor
+                                    Appointment</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="">
+                        <div
+                            class="flex items-center justify-center md:justify-end  mt-4 lg:justify-start xl:justify-start">
+                            <div class="mt-2 mr-2.5">
+                                <p class=" text-4xl text-highRed"><iconify-icon icon="ic:sharp-call"></iconify-icon>
+                                </p>
+                            </div>
+                            <div class="">
+                                <p class="text-base  font-lato text-white">24/7 Emergency Line</p>
+                                <p class=" text-xl  font-lato text-white">+971 58 58 22 900</p>
+                            </div>
+                        </div>
+                        <div class=" text-center md:text-right lg:text-left mt-8">
+                            <a class=" text-white text-4xl hover:text-highRed mr-5" href="#"><iconify-icon
+                                    icon="entypo-social:facebook-with-circle"></iconify-icon></a>
+                            <a class=" text-white text-4xl hover:text-highRed mr-5" href="#"><iconify-icon
+                                    icon="ant-design:twitter-circle-filled"></iconify-icon></a>
+                            <a class=" text-white text-4xl hover:text-highRed" href="#"><iconify-icon
+                                    icon="entypo-social:instagram-with-circle"></iconify-icon></a>
+                        </div>
+
+                        <div class=" bg-lightAsh py-6 px-10 lg:py-4 lg:px-6 rounded-xl mt-12">
+                            <h2 class=" text-xl lg:text-base text-white font-lato text-center ">Subscribe to Our
+                                Newsletter
+                            </h2>
+                            <p class=" text-white font-lato text-base mt-3 text-center">Be the first know about
+                                releases</p>
+                            <div class="mt-6">
+                                <form action="">
+                                    <input
+                                        class="  bg-white px-4 py-2  rounded-lg text-base text-highBlue focus:outline-none w-full"
+                                        type="email" placeholder="Enter Your Email">
+                                    <div class="w-3/5 mx-auto mt-3">
+                                        <button
+                                            class=" w-full bg-highRed text-white font-lato font-semibold py-2 px-4 rounded-lg"
+                                            type="submit">Subscrive</button>
+                                    </div>
+
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <!-- ==========footer-main======= -->
+            <div class=" border-b  border-lightAsh mt-10"></div>
+            <p class=" text-base text-white font-lato text-center mt-4">© Copyright 2021 | Somerian Health | All Rights
+                Reserved.s</p>
+        </div>
+    </Footer>
+    <!-- ===============Footer-End========================= -->
+    <script src=" https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+    <!-- ===iconfy-icon=== -->
+    <script src="./js/jquary.js"></script>
+    <script src="./js/coustom.js"></script>
+</body>
+
+</html>

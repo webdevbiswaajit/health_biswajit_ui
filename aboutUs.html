@@ -1,0 +1,703 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ===Google-font=== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <!-- ===Google-font=== -->
+    <link href="./dist/output.css" rel="stylesheet">
+    <!-- ===Coustom Css=== -->
+    <link rel="stylesheet" href="./src/coustom.css">
+    <!-- ===Coustom Css=== -->
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="bg-lightBlue">
+            <div class="container mx-auto">
+                <div class="px-2 flex justify-between">
+                    <div class="flex items-center">
+                        <div class="">
+                            <p class=" text-lg   text-white mt-1 md:mt-2 mr-2"><iconify-icon
+                                    icon="ri:mail-fill"></iconify-icon>
+                            </p>
+                        </div>
+                        <div class="">
+                            <p class="text-white text-xs md:text-base font-normal font-lato">contact@somerianhealth.com
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex items-center">
+                        <div class="">
+                            <p class=" text-lg  text-white mt-1 mr-2"><iconify-icon
+                                    icon="ic:baseline-local-phone"></iconify-icon>
+                            </p>
+                        </div>
+                        <div class="">
+                            <p class="text-white text-xs md:text-base font-normal font-lato">+971 24 090 555
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ================Top bar============= -->
+    <!-- ==========================Nav-start================== -->
+    <nav>
+        <div class="bg-about_hero   heroback bg-cover bg-center py-4 lg:pb-36 hero  lg:px-0">
+            <div class="nav_black" id="myHeader">
+                <div class="container mx-auto">
+                    <div class="grid grid-cols-12 items-center menu_area ">
+                        <div class="col-span-12 lg:col-span-4">
+                            <div class=" flex justify-between">
+                                <div class="">
+                                    <a href="https://somerianhealth.com/" target="_blank"><img
+                                            class=" w-28 lg:w-56 lg:h-20" src="./img/white_logo.png" alt=""></a>
+                                </div>
+                                <div class=" lg:hidden dropdown_toggle">
+                                    <button class=" text-3xl text-white "><iconify-icon
+                                            icon="material-symbols:menu-rounded"></iconify-icon></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-span-12 lg:col-span-8  ">
+                            <ul class=" lg:flex lg:justify-between hidden dropdown mobile_menu">
+                                <li><a class=" lg:text-lg  text-white  font-lato font-medium hover:text-highRed py-2 lg:py-0 "
+                                        href="index.html">Home</a>
+                                </li>
+                                <li><a class=" lg:text-lg  text-white   font-lato font-medium hover:text-highRed py-2 lg:py-0 "
+                                        href="aboutUs.html">About
+                                        Us</a>
+                                </li>
+                                <li><a class=" lg:text-lg  text-white   font-lato font-medium hover:text-highRed py-2 lg:py-0"
+                                        href="services.html">Services</a>
+                                </li>
+                                <li><a class=" lg:text-lg  text-white   font-lato font-medium hover:text-highRed py-2 lg:py-0"
+                                        href="doctor.html">Doctors</a>
+                                </li>
+                                <li><a class=" lg:text-lg  text-white   font-lato font-medium hover:text-highRed py-2 lg:py-0 "
+                                        href="careers.html">Careers</a>
+                                </li>
+                                <li><a class=" lg:text-lg  text-white   font-lato font-medium hover:text-highRed py-2 lg:py-0"
+                                        href="contact.html">Contact
+                                        Us</a></li>
+                                <div class="search">
+                                    <div class=" flex justify-end lg:justify-start">
+                                        <div
+                                            class=" bg-highRed w-10 h-10 flex justify-center items-center rounded-full py-2 lg:py-0">
+                                            <button class="px-6  py-3 text-white text-2xl mt-1 serch_btn"><iconify-icon
+                                                    icon="material-symbols:search-rounded"></iconify-icon>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class=" search_input search_field hidden">
+                                        <form action="">
+                                            <div class=" flex items-center">
+                                                <div class="">
+                                                    <input
+                                                        class=" py-2 px-2 bg-highBlue text-white border border-white rounded focus:outline-none  serach_box"
+                                                        type="text" placeholder="Search Hear">
+                                                </div>
+                                                <div class=" ml-2">
+                                                    <button
+                                                        class=" bg-highRed py-2 px-3 text-white font-lato  border border-highRed rounded">Serach</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mx-auto">
+
+                <div class="lg:px-3">
+                    <h2
+                        class="text-2xl  lg:text-4xl text-center lg:text-left text-white font-lato font-semibold lg:mt-20">
+                        About Us</h2>
+                    <div class=" flex items-center justify-center lg:justify-start mt-2 lg:mt-5">
+                        <a class="text-base lg:text-lg text-white font-lato " href="#">Home</a>
+                        <p class="text-base lg:text-lg  text-white font-lato mx-2">></p>
+                        <a class="text-base lg:text-lg  text-highRed font-lato " href="#">About Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </nav>
+    <!-- ==========================Nav-End================== -->
+    <!-- ===============About-us start================= -->
+    <section>
+        <div class="container mx-auto px-3 py-10 lg:pt-28  lg:pb-20 back">
+            <div class="lg:grid  lg:grid-cols-10 lg:gap-6">
+                <div class=" lg:col-span-5">
+                    <div class="text_line2">
+                        <p class=" text-base font-lato text-highRed font-normal lg:mb-4">About Us</p>
+                    </div>
+                    <h2
+                        class=" font-lato font-semibold   text-highBlue text-xl md:text-3xl  lg:text-4xl md:text-center lg:text-left md:mb-3 ">
+                        About Somerian Health
+                    </h2>
+                    <p
+                        class=" text-highBlue font-lato  text-base lg:text-lg  leading-5 text-justify md:text-center lg:text-justify font-normal lg:font-medium">
+                        While the nation was fighting the virus outbreak, Somerian Health as a volunteer healthcare body
+                        came forward to join
+                        forces with the civic body.</p>
+                    <p
+                        class=" text-highBlue font-lato  text-base lg:text-lg  leading-5 text-justify md:text-center lg:text-justify font-normal lg:font-medium">
+                        Ever since then, Somerian Health has been ensuring effective prevention and control of COVID-19
+                        in every possible way.
+                        This includes diagnostic services like RT-PCR, DPI testing, airport watch tracker programs and
+                        antigen testing.</p>
+
+                    <p
+                        class=" text-highBlue font-lato  text-base lg:text-lg  leading-5 text-justify md:text-center lg:text-justify font-normal lg:font-medium">
+                        Somerian health has been organizing vaccination drives at various touchpoints like airports,
+                        borders, churches,
+                        gurdwaras and labour camps – only to make UAE feel safe again.</p>
+                    <p
+                        class=" text-highBlue font-lato  text-base lg:text-lg  leading-5 text-justify md:text-center lg:text-justify font-normal lg:font-medium">
+                        Today, Somerian Health is aiming to change the future of healthcare. This is why, it is bringing
+                        new-age, technology-led
+                        medical services with an efficient team of foreign-trained doctors and nurses under its roof.
+                        And all this by keeping
+                        one goal in mind – prioritizing health, no matter what.</p>
+
+
+                    <div class=" mt-6">
+
+                        <h2
+                            class="font-lato font-semibold   text-highBlue text-xl md:text-3xl  lg:text-4xl md:text-center lg:text-left md:mb-3 ">
+                            Our Principles</h2>
+
+                        <div class="flex items-center">
+                            <div class="">
+                                <p class=" text-highRed font-lato  text-2xl mt-1"><iconify-icon
+                                        icon="ic:round-check-circle">
+                                </p>
+                            </div>
+                            <div class="">
+                                <p class=" text-highBlue text-base font-lato font-normal leading-6 ml-2 ">QCompassion
+                                </p>
+                            </div>
+
+                        </div>
+                        <!-- =======checked======== -->
+                        <div class="flex items-center">
+                            <div class="">
+                                <p class=" text-highRed font-lato  text-2xl mt-1"><iconify-icon
+                                        icon="ic:round-check-circle">
+                                </p>
+                            </div>
+                            <div class="">
+                                <p class=" text-highBlue text-base font-lato font-normal leading-6 ml-2 ">Ability</p>
+                            </div>
+
+                        </div>
+                        <!-- =======checked======== -->
+                        <div class="flex items-center">
+                            <div class="">
+                                <p class=" text-highRed font-lato  text-2xl mt-1"><iconify-icon
+                                        icon="ic:round-check-circle">
+                                </p>
+                            </div>
+                            <div class="">
+                                <p class=" text-highBlue text-base font-lato font-normal leading-6 ml-2 ">Reliability
+                                </p>
+                            </div>
+
+                        </div>
+                        <!-- =======checked======== --><!-- =======checked======== -->
+                        <div class="flex items-center">
+                            <div class="">
+                                <p class=" text-highRed font-lato  text-2xl mt-1"><iconify-icon
+                                        icon="ic:round-check-circle">
+                                </p>
+                            </div>
+                            <div class="">
+                                <p class=" text-highBlue text-base font-lato font-normal leading-6 ml-2 ">Excellence
+                                </p>
+                            </div>
+
+                        </div>
+                        <!-- =======checked======== -->
+                    </div>
+                    <div class="mt-5 lg:mt-11 flex justify-center lg:justify-start mb-3 ">
+                        <a class="  font-lato text-lg font-semibold text-white  bg-highRed px-4 py-2 md:px-5 md:py-3 rounded-lg"
+                            href="https://somerianhealth.com/about-us/" target="_blank">View
+                            Details</a>
+                    </div>
+                </div>
+                <div class=" lg:col-span-5">
+                    <div class="aboutMain ">
+                        <img class="w-full mt-6 md:mt-8 " src="./img/aboutImg.jpg" alt="aboutImg.jpg">
+                        <div class=" aboutBottom flex justify-center w-full">
+                            <img class=" w-11/12  h-40 md:h-300 lg:w-300 lg:h-300   border-8 border-white rounded-lg "
+                                src="./img/sergary.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===============About-us End================= -->
+
+
+    <!-- ===========Explore-section============== -->
+    <section>
+        <div class=" bg-highRed px-3 py-6 md:py-10 lg:py-16 mt-28 xl:mt-0 back">
+            <div class=" lg:w-11/12 mx-auto">
+                <div class=" md:grid md:grid-cols-2 md:gap-10 lg:grid lg:grid-cols-2 xl:grid-cols-4 lg:gap-10  ">
+                    <div class=" lg:flex mb-5 lg:mb-0">
+                        <div class=" flex justify-center lg:mr-6">
+                            <div class="w-20 h-20 bg-medicale_back  bg-no-repeat flex justify-center items-center ">
+                                <img class="mb-6 mr-2" src="./img/m-box.png" alt="m-box">
+                            </div>
+                        </div>
+                        <div class="">
+                            <h2 class=" text-2xl font-semibold text-white font-lato text-center lg:text-left">Expert
+                                Doctors</h2>
+                            <p class="text-white font-lato text-base mt-2.5 text-center lg:text-left">Lorem Ipsum is
+                                simply dummy text
+                                printing and typesetting industry.
+                                Ipsum has been the industry's</p>
+                        </div>
+                    </div>
+                    <div class=" lg:flex mb-5 lg:mb-0">
+                        <div class=" flex justify-center lg:mr-6">
+                            <div class="w-20 h-20 bg-medicale_back  bg-no-repeat flex justify-center items-center">
+                                <img class="mb-6 mr-2" src="./img/headphone.png" alt="m-box">
+                            </div>
+                        </div>
+                        <div class="">
+                            <h2 class=" text-2xl font-semibold text-white font-lato text-center lg:text-left">24/7 Help
+                                Center</h2>
+                            <p class="text-white font-lato text-base mt-2.5 text-center lg:text-left">Lorem Ipsum is
+                                simply dummy text
+                                printing and typesetting industry.
+                                Ipsum has been the industry's</p>
+                        </div>
+                    </div>
+                    <div class=" lg:flex mb-5 lg:mb-0">
+                        <div class=" flex justify-center lg:mr-6">
+                            <div class="w-20 h-20 bg-medicale_back  bg-no-repeat flex justify-center items-center">
+                                <img class="mb-6 mr-2" src="./img/award.png" alt="m-box">
+                            </div>
+                        </div>
+                        <div class="">
+                            <h2 class="text-2xl font-semibold text-white font-lato text-center lg:text-left">Award
+                                Wining</h2>
+                            <p class="text-white font-lato text-base mt-2.5 text-center lg:text-left">Lorem Ipsum is
+                                simply dummy text
+                                printing and typesetting industry.
+                                Ipsum has been the industry's</p>
+                        </div>
+                    </div>
+                    <div class="lg:flex mb-5 lg:mb-0">
+                        <div class=" flex justify-center lg:mr-6">
+                            <div class="w-20 h-20 bg-medicale_back  bg-no-repeat flex justify-center items-center">
+                                <img class="mb-6 mr-2" src="./img/home_icon.png" alt="m-box">
+                            </div>
+                        </div>
+                        <div class="">
+                            <h2 class=" text-2xl font-semibold text-white font-lato text-center lg:text-lef">Modern
+                                Hospital & Clinic</h2>
+                            <p class="text-white font-lato text-base mt-2.5 text-center lg:text-left">Lorem Ipsum is
+                                simply dummy text
+                                printing and typesetting industry.
+                                Ipsum has been the industry's</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===========Explore-section-end============== -->
+
+    <!-- ============Mission And Vision-start============= -->
+    <section>
+        <div class="back">
+            <div class="mission_back py-6 lg:py-20 px-3 lg:px-0">
+                <div class="container mx-auto ">
+                    <div class="lg:w-1/2 bg-highRed py-6 px-4">
+                        <div class="">
+                            <div class="">
+                                <h2 class=" font-lato font-semibold text-white text-xl lg:text-4xl">Our Mission
+                                </h2>
+                                <p class="font-lato font-semibold text-white text-base mt-4 text-justify">To
+                                    deliver
+                                    service excellence with well-designed care experience that is responsive to
+                                    the
+                                    needs and realities of the
+                                    patients. Our services are designed for patients to experience a remarkable
+                                    health care journey empowering them to walk
+                                    through an inspiring, vitalising and healing environment that would allow
+                                    them
+                                    to live a healthier, happier and balanced
+                                    life..</p>
+                            </div>
+                            <div class=""></div>
+                        </div>
+                    </div>
+                    <div class=" flex justify-end">
+                        <div class="lg:w-1/2 bg-highBlue py-6 px-4 mt-6 lg:mt-0">
+                            <div class="">
+                                <div class="">
+                                    <h2 class=" font-lato font-semibold text-white  text-xl lg:text-4xl">Our Vision
+                                    </h2>
+                                    <p class="font-lato font-semibold text-white text-base mt-4 text-justify">To
+                                        lead
+                                        people-centred medical excellence by invigorating the innovative futuristic
+                                        technology and strengthen the
+                                        continuum of care for a healthier community.</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===========Mission And Vision-End=========== -->
+
+    <!-- =============Healt-record start============= -->
+    <section>
+        <div class="back">
+            <div class="container mx-auto px-3 py-6 md:py-10 lg:py-16">
+                <div class="lg:grid lg:grid-cols-5 lg:gap-5">
+                    <div class="mb-3 lg:mb-0">
+                        <div class=" flex justify-center">
+                            <div class="">
+                                <div class="flex justify-center">
+                                    <div
+                                        class=" w-32 h-32 border-4 border-highRed rounded-full flex justify-center items-center">
+                                        <img src="./img/vaccine_done.png" alt="">
+                                    </div>
+                                </div>
+                                <h2 class="font-lato font-bold   text-highBlue text-xl text-center mt-2">5 Million
+                                </h2>
+                                <p class="font-lato font-bold   text-highBlue text-xl text-center">vaccinations Done
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-3 lg:mb-0">
+                        <div class="flex justify-center">
+                            <div
+                                class=" w-32 h-32 border-4 border-highRed rounded-full flex justify-center items-center">
+                                <img src="./img/labretory.png" alt="">
+                            </div>
+                        </div>
+                        <h2 class="font-lato font-bold   text-highBlue text-xl text-center mt-2">20 Million
+                        </h2>
+                        <p class="font-lato font-bold   text-highBlue text-xl text-center">Pcr Tests Administereds
+                        </p>
+                    </div>
+                    <div class="mb-3 lg:mb-0">
+                        <div class="flex justify-center">
+                            <div
+                                class=" w-32 h-32 border-4 border-highRed rounded-full flex justify-center items-center">
+                                <img src="./img/hospital_bed.png" alt="">
+                            </div>
+                        </div>
+                        <h2 class="font-lato font-bold   text-highBlue text-xl text-center mt-2">5000 +
+                        </h2>
+                        <p class="font-lato font-bold   text-highBlue text-xl text-center">Medical Beds Deployed
+                        </p>
+                    </div>
+                    <div class="mb-3 lg:mb-0">
+                        <div class="flex justify-center">
+                            <div
+                                class=" w-32 h-32 border-4 border-highRed rounded-full flex justify-center items-center">
+                                <img src="./img/staff.png" alt="">
+                            </div>
+                        </div>
+                        <h2 class="font-lato font-bold   text-highBlue text-xl text-center mt-2">2000 +
+                        </h2>
+                        <p class="font-lato font-bold   text-highBlue text-xl text-center">Medical Staffs
+                        </p>
+                    </div>
+                    <div class="mb-3 lg:mb-0">
+                        <div class="flex justify-center">
+                            <div
+                                class=" w-32 h-32 border-4 border-highRed rounded-full flex justify-center items-center">
+                                <img src="./img/center_hospital.png" alt="">
+                            </div>
+                        </div>
+                        <h2 class="font-lato font-bold   text-highBlue text-xl text-center mt-2">84 Centers
+                        </h2>
+                        <p class="font-lato font-bold   text-highBlue text-xl text-center">Accross
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =============Healt-record end============= -->
+
+    <!-- =============Faq start======================= -->
+    <section>
+        <div class="container mx-auto  py-10 back  mb-28">
+            <div class="text_line6 px-3">
+                <p class=" text-base font-lato text-highRed font-normal lg:mb-4">Faq</p>
+            </div>
+            <h2
+                class="font-lato font-semibold  text-highBlue text-xl md:text-3xl  lg:text-4xl md:text-center lg:text-left md:mb-3 px-3">
+                Frequently Asked Questions
+            </h2>
+            <div class="lg:grid lg:grid-cols-2 lg:gap-9">
+                <div class="mt-6 lg:mt-11 px-3">
+                    <div class=" rounded-tr-full rounded-br-full">
+                        <img class=" w-full lg:rounded-tr-full lg:rounded-br-full" src="./img/faq_back.jpg" alt="">
+                    </div>
+                </div>
+                <div class="mt-6 lg:mt-44 ">
+                    <h2
+                        class=" font-lato font-semibold  text-highBlue text-xl md:text-3xl  lg:text-4xl text-center md:text-center lg:text-left md:mb-3">
+                        Questions on the Projects</h2>
+
+                    <div class="mt-5 lg:mt-11 flex justify-center lg:justify-start mb-3 ">
+                        <div id="accordion" class="accordion-container">
+                            <h4 class="accordion-title js-accordion-title font-lato text-base font-medium  mr-3">
+                                1.Can I Book an Appointment Behalf of Someone Else?</h4>
+                            <div class="accordion-content">
+                                <p class=" font-lato text-highBlue text-base text-normal">It is a long-established fact
+                                    that a reader will be
+                                    distracted by the readable
+                                    content of a page when. The point of
+                                    using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as
+                                    opposed here, content here', making
+                                    it look like readable English. Many desktop publishing packages and web</p>
+                            </div>
+                            <h4 class="accordion-title js-accordion-title mr-3">2.Do I Need a Referral to See a
+                                Physiotherapist?</h4>
+                            <div class="accordion-content">
+                                <p>It is a long-established fact that a reader will be distracted by the readable
+                                    content of a page when. The point of
+                                    using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as
+                                    opposed here, content here', making
+                                    it look like readable English. Many desktop publishing packages and web</p>
+                            </div>
+                            <h4 class="accordion-title js-accordion-title mr-3">3.Do You Venue Options for Appointments
+                            </h4>
+                            <div class="accordion-content">
+                                <p>It is a long-established fact that a reader will be distracted by the readable
+                                    content of a page when. The point of
+                                    using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as
+                                    opposed here, content here', making
+                                    it look like readable English. Many desktop publishing packages and web</p>
+                            </div>
+                            <h4 class="accordion-title js-accordion-title mr-3">4.Do You Venue Options for Appointments
+                            </h4>
+                            <div class="accordion-content">
+                                <p>It is a long-established fact that a reader will be distracted by the readable
+                                    content of a page when. The point of
+                                    using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as
+                                    opposed here, content here', making
+                                    it look like readable English. Many desktop publishing packages and web</p>
+                            </div>
+                            <h4 class="accordion-title js-accordion-title mr-3">5,Do I Need a Referral to See a
+                                Physiotherapist?</h4>
+                            <div class="accordion-content">
+                                <p>It is a long-established fact that a reader will be distracted by the readable
+                                    content of a page when. The point of
+                                    using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as
+                                    opposed here, content here', making
+                                    it look like readable English. Many desktop publishing packages and web</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =============Faq End======================= -->
+    <!-- ===============Footer-start========================= -->
+    <Footer>
+        <div class="back">
+            <div class="bg-footer_back px-3 py-6  lg:pt-28 lg:pb-12  footer_over ">
+                <div class="container mx-auto">
+                    <div class="md:grid md:grid-cols-2 md:gap-7  lg:grid lg:grid-cols-4 lg:gap-10">
+                        <div class="">
+                            <div class="">
+                                <div class=" flex justify-center md:justify-start lg:justify-start">
+                                    <a href="https://somerianhealth.com/" target="_blank">
+                                        <img class=" w-60 lg:w-56 " src="./img/white_logo.png" alt="">
+                                    </a>
+                                </div>
+                                <p
+                                    class=" text-white font-lato text-base text-center md:text-justify lg:text-left mt-3">
+                                    Unit A202, 2nd Floor, Block A, Tamouh Business Hub, Reem Island Abu Dhabi, UAE</p>
+
+                            </div>
+
+                            <div class="mt-9">
+                                <div class="flex items-center justify-center md:justify-start">
+                                    <p class=" text-2xl text-highRed mt-1 mr-2.5"><iconify-icon
+                                            icon="material-symbols:location-on-rounded"></iconify-icon></p>
+                                    <p class="text-white font-lato text-base">Abu Dhabi, UAE</p>
+                                </div>
+                                <div class="flex items-center justify-center md:justify-start mt-2">
+                                    <p class=" text-2xl text-highRed mt-1 mr-2.5"><iconify-icon
+                                            icon="material-symbols:mail"></iconify-icon></p>
+                                    <p class="text-white font-lato text-base">contact@somerianhealth.com</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <h2
+                                class="font-semibold font-lato text-white text-center md:text-right lg:text-left text-xl lg:text-2xl mt-3  ">
+                                About Us
+                            </h2>
+
+                            <ul class="flex flex-col items-center md:items-end lg:items-start mt-3  ">
+                                <li><a class=" text-base  font-lato text-white  hover:text-highRed" href="#">Home</a>
+                                </li>
+                                <li class="mt-1"><a class=" text-base  font-lato text-white  hover:text-highRed"
+                                        href="#">Specialities</a>
+                                </li>
+                                <li class="mt-1"><a class=" text-base  font-lato text-white  hover:text-highRed"
+                                        href="#">Locations</a>
+                                </li>
+                                <li class="mt-1"><a class=" text-base  font-lato text-white  hover:text-highRed"
+                                        href="#">Insurance
+                                        Partner</a>
+                                </li>
+                                <li class="mt-1"><a class=" text-base  font-lato text-white   hover:text-highRed"
+                                        href="#">Career</a>
+                                </li>
+                                <li class="mt-1"><a class=" text-base  font-lato text-white  hover:text-highRed"
+                                        href="#">Contact
+                                        Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="mt-6 lg:mt-0">
+                            <h2
+                                class="font-semibold font-lato text-white text-center md:text-left text-xl lg:text-2xl mt-3">
+                                Quick Links
+                            </h2>
+
+                            <ul class="flex flex-col items-center md:items-start mt-3 ">
+                                <li><a class=" text-base  font-lato text-white  hover:text-highRed" href="#">Our Pricing
+                                        Plan</a>
+                                </li>
+                                <li class="mt-1"><a class=" text-base  font-lato text-white  hover:text-highRed"
+                                        href="#">Our
+                                        Main Services</a>
+                                </li>
+                                <li class="mt-1"><a class=" text-base  font-lato text-white  hover:text-highRed"
+                                        href="#">Doctors</a>
+                                </li>
+                                <li class="mt-1"><a class=" text-base  font-lato text-white  hover:text-highRed"
+                                        href="#">Hospitals</a>
+                                </li>
+                                <li class="mt-1"><a class=" text-base  font-lato text-white   hover:text-highRed"
+                                        href="#">Clinicks</a>
+                                </li>
+                                <li class="mt-1"><a class=" text-base  font-lato text-white  hover:text-highRed"
+                                        href="#">Diagnostic</a>
+                                </li>
+                                <li class="mt-1"><a class=" text-base  font-lato text-white  hover:text-highRed"
+                                        href="#">Ambulance</a>
+                                </li>
+                                <li class="mt-1"><a class=" text-base  font-lato text-white  hover:text-highRed"
+                                        href="#">Doctor
+                                        Appointment</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="">
+                            <div
+                                class="flex items-center justify-center md:justify-end  mt-4 lg:justify-start xl:justify-start">
+                                <div class="mt-2 mr-2.5">
+                                    <p class=" text-4xl text-highRed"><iconify-icon icon="ic:sharp-call"></iconify-icon>
+                                    </p>
+                                </div>
+                                <div class="">
+                                    <p class="text-base  font-lato text-white">24/7 Emergency Line</p>
+                                    <p class=" text-xl  font-lato text-white">+971 58 58 22 900</p>
+                                </div>
+                            </div>
+                            <div class=" text-center md:text-right lg:text-left mt-8">
+                                <a class=" text-white text-4xl hover:text-highRed mr-5" href="#"><iconify-icon
+                                        icon="entypo-social:facebook-with-circle"></iconify-icon></a>
+                                <a class=" text-white text-4xl hover:text-highRed mr-5" href="#"><iconify-icon
+                                        icon="ant-design:twitter-circle-filled"></iconify-icon></a>
+                                <a class=" text-white text-4xl hover:text-highRed" href="#"><iconify-icon
+                                        icon="entypo-social:instagram-with-circle"></iconify-icon></a>
+                            </div>
+
+                            <div class=" bg-lightAsh py-6 px-10 lg:py-4 lg:px-6 rounded-xl mt-12">
+                                <h2 class=" text-xl lg:text-base text-white font-lato text-center ">Subscribe to Our
+                                    Newsletter
+                                </h2>
+                                <p class=" text-white font-lato text-base mt-3 text-center">Be the first know about
+                                    releases</p>
+                                <div class="mt-6">
+                                    <form action="">
+                                        <input
+                                            class="  bg-white px-4 py-2  rounded-lg text-base text-highBlue focus:outline-none w-full"
+                                            type="email" placeholder="Enter Your Email">
+                                        <div class="w-3/5 mx-auto mt-3">
+                                            <button
+                                                class=" w-full bg-highRed text-white font-lato font-semibold py-2 px-4 rounded-lg"
+                                                type="submit">Subscrive</button>
+                                        </div>
+
+                                    </form>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <!-- ==========footer-main======= -->
+                <div class=" border-b  border-lightAsh mt-10"></div>
+                <p class=" text-base text-white font-lato text-center mt-4">© Copyright 2021 | Somerian Health | All
+                    Rights
+                    Reserved.s</p>
+            </div>
+        </div>
+    </Footer>
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- ===============Footer-End========================= -->
+    <!-- ===iconfy-icon=== -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+    <!-- ===iconfy-icon=== -->
+    <script src=" https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+    <!-- ===iconfy-icon=== -->
+    <script src="./js/jquary.js"></script>
+    <script src="./js/coustom.js"></script>
+</body>
+
+</html>
