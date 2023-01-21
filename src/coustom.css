@@ -145,7 +145,7 @@
     content: '';
     background: #E22845;
     width: 250px;
-    height: 1px;
+    height: 2px;
     top: 115%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -344,7 +344,7 @@
 .footer_over::after {
     position: absolute;
     content: '';
-    background-color: rgba(2, 29, 58, 0.9);
+    background: linear-gradient(29deg, rgba(230, 28, 68, 1) 0%, rgba(2, 29, 58, 1) 100%);
     top: 0;
     left: 0;
     bottom: 0;
@@ -576,6 +576,7 @@
     top: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 50px;
 
 }
 

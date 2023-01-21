@@ -1,3 +1,84 @@
+$(".wrapper").on("click", ".remove", function () {
+  $(".remove")
+    .closest(".wrapper")
+    .find(".element")
+    .not(":first")
+    .last()
+    .remove();
+  event.preventDefault();
+});
+$(".wrapper").on("click", ".clone", function () {
+  $(".clone")
+    .closest(".wrapper")
+    .find(".element")
+    .first()
+    .clone()
+    .appendTo(".results");
+  event.preventDefault();
+});
+
+// ======second-input============
+
+$(".wrapper2").on("click", ".remove2", function () {
+  $(".remove2")
+    .closest(".wrapper2")
+    .find(".element2")
+    .not(":first")
+    .last()
+    .remove();
+  event.preventDefault();
+});
+$(".wrapper2").on("click", ".clone2", function () {
+  $(".clone2")
+    .closest(".wrapper2")
+    .find(".element2")
+    .first()
+    .clone()
+    .appendTo(".results2");
+  event.preventDefault();
+});
+
+// ====================3rd-input=============
+$(".wrapper3").on("click", ".remove3", function () {
+  $(".remove3")
+    .closest(".wrapper3")
+    .find(".element3")
+    .not(":first")
+    .last()
+    .remove();
+  event.preventDefault();
+});
+$(".wrapper3").on("click", ".clone3", function () {
+  $(".clone3")
+    .closest(".wrapper3")
+    .find(".element3")
+    .first()
+    .clone()
+    .appendTo(".results3");
+  event.preventDefault();
+});
+
+// =============4th-field==================
+$(".wrapper4").on("click", ".remove4", function () {
+  $(".remove4")
+    .closest(".wrapper4")
+    .find(".element4")
+    .not(":first")
+    .last()
+    .remove();
+  event.preventDefault();
+});
+$(".wrapper4").on("click", ".clone4", function () {
+  $(".clone4")
+    .closest(".wrapper4")
+    .find(".element4")
+    .first()
+    .clone()
+    .appendTo(".results4");
+  event.preventDefault();
+});
+
+// ====================Add-field===========
 $(function () {
   //jQuery time
   var current_fs, next_fs, previous_fs; //fieldsets
@@ -215,4 +296,7 @@ $(document).ready(function ($) {
   });
 });
 
+// ====================Add Field============
+
+// ====================Add Field============
 // =============================Multistep-form==========

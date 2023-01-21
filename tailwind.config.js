@@ -11,6 +11,7 @@ module.exports = {
     "careers.html",
     "jobDitails.html",
     "onlineApply.html",
+    "faq.html",
   ],
   theme: {
     extend: {
